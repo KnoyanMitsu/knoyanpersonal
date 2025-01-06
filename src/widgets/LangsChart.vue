@@ -56,8 +56,7 @@ import Language from '../controller/FetchLanguage';
   });
   
   onMounted(async () => {
-    const langInstance = new Language();
-  
+    const langInstance = new Language(import.meta.env.VITE_NAME, import.meta.env.VITE_API_KEY);
     try {
       const stats = await langInstance.GetStats();
       const targetLanguages = ["Vue", "PHP", "Python"];

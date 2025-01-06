@@ -1,9 +1,12 @@
 import axios from 'axios';
-import env from '../controller/env_dev.json';
+
 export default class Language {
-    constructor() {
+    
+    constructor(name, api) {
         this.statsJson = [];
         this.totalJson = [];
+        this.api = api;
+        this.name = name;
     }
 
     // Define method inside class without "function"
@@ -111,8 +114,8 @@ export default class Language {
     }
     async GetStats() {
 
-        const token = env.key;
-        const username = env.name;
+        const token = this.api
+        const username = this.name
         
         const languageInstance = new Language(); // Create an instance of the class
     
