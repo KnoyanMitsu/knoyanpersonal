@@ -3,7 +3,7 @@
       <VueApexCharts
         class="rounded-full"
         type="bar"
-        height="100"
+        height="200"
         :options="chartOptions"
         :series="linechartseries"
       />
@@ -20,11 +20,10 @@ import Language from '../controller/FetchLanguage';
   const chartOptions = ref({
     chart: {
       type: 'bar',
-      height: 50,
-      stacked: true,
-      stackType: '100%',
+      height: 200,
+      stacked: false,
       toolbar: {
-        show: true,
+        show: false,
       tools: {
         download: false
       }
@@ -32,18 +31,14 @@ import Language from '../controller/FetchLanguage';
     },
     plotOptions: {
                 bar: {
-                  borderRadius: 10,
                   horizontal: true,
                 },
               },
+              dataLabels: {
+              enabled: false
+            },
     xaxis: {
       categories: [],
-      axisBorder:{
-        show: false
-      },
-    axisTicks:{
-      show: false
-    },
     labels:{
       show: false 
     }
@@ -54,13 +49,6 @@ import Language from '../controller/FetchLanguage';
       }
     },
     yaxis: {
-      axisBorder:{
-        show: false
-      },
-  
-      axisTicks:{
-      show: false
-    },
     labels:{
       show: false 
     }

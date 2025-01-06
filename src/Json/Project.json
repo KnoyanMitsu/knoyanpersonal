@@ -1,0 +1,70 @@
+[
+    {
+      "id": 1,
+      "image": "project1.png",
+      "title": "Personal Portfolio Website",
+      "year": "2025-Now",
+      "description": "A portfolio website to showcase my projects and skills.",
+      "isPublic": true,
+      "isLive": true,
+      "languages": ["HTML", "Tailwind", "JavaScript", "Vue.js"],
+      "link": {
+        "website": "https://myportfolio.com",
+        "source_code": "https://github.com/KnoyanMitsu/knoyanpersonal"
+      }
+    },
+    {
+      "id": 2,
+      "image": "project2.png",
+      "title": "Undangan Online",
+      "year": "2022",
+      "description": "Undangan Online is an online invitation platform in Indonesian language for wedding invitations.",
+      "isPublic": true,
+      "isLive": false,
+      "languages": ["PHP", "MySQL", "HTML", "CSS"],
+      "link": {
+        "source_code": "https://github.com/KnoyanMitsu/Undangan-Online"
+      }
+    },
+    {
+      "id": 3,
+      "image": "project3.png",
+      "title": "SeeJTI",
+      "year": "2024",
+      "description": "An Website looking schedule class in Politeknik Negeri Malang",
+      "isPublic": true,
+      "isLive": false,
+      "languages": ["Vue.js","Tailwind","PHP","SQL Server","JavaScript"],
+      "link": {
+        "website": "",
+        "source_code": "https://github.com/KnoyanMitsu/SeeJTI"
+      }
+    },
+    {
+      "id": 4,
+      "image": "project4.png",
+      "title": "Redlevl Ecommerce",
+      "year": "2023",
+      "description": "An Ecommerce website for Redlevl",
+      "isPublic": false,
+      "isLive": false,
+      "languages": ["Laravel", "Bootstrap", "PHP", "MySQL"],
+      "link": {
+      }
+    },
+    {
+      "id": 5,
+      "image": "project5.png",
+      "title": "E122 aka Frontend e926.net with Flutter",
+      "year": "2023",
+      "description": "A mobile app e926.net with Flutter. i made this for Learn connect API to Flutter",
+      "isPublic": true,
+      "isLive": false,
+      "languages": ["Fluuter","Dart"],
+      "link": {
+        "website": "",
+        "source_code": "https://github.com/KnoyanMitsu/E122"
+      }
+    }
+  ]
+  
