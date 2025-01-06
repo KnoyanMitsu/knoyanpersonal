@@ -71,7 +71,7 @@ const skeletonCount = Project.length;
           <div class="h-full" v-for="project in Project" :key="project">
             <div class="bg-white shadow-xl rounded-md h-full flex flex-col">
               <img 
-                src="https://dotesports.com/wp-content/uploads/2024/06/Himeko-Honkai-star-rail.jpg?w=1200" 
+                :src="require(`../assets/${project.image}`)" 
                 class="rounded-t-md w-full h-52 object-cover" 
                 alt="" 
               />
