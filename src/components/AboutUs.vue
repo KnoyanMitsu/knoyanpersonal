@@ -17,7 +17,13 @@ import LangsChart from '@/widgets/LangsChart.vue';
     <div class="grid gap-3 lg:col-span-3">
       <div class="bg-white shadow-xl  w-auto h-auto p-7 rounded-md">
         <h1 class="text-3xl font-bold text-black">About Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repudiandae, exercitationem voluptate cumque culpa fuga molestias laudantium, porro cum consequuntur impedit ex, illo et consequatur sequi. Dolorum facilis numquam earum inventore temporibus odio ad reiciendis unde, impedit laboriosam illum, atque enim exercitationem laudantium dolore assumenda excepturi sequi id beatae aliquam voluptatibus facere! Odio optio nisi sit magni eius dignissimos nesciunt rem velit maxime porro? Magnam reiciendis ea cupiditate placeat aperiam doloribus quia deleniti soluta nisi nihil quaerat nostrum officia, laborum voluptate! Error ratione architecto, dolorum, harum asperiores incidunt explicabo accusamus doloribus laudantium culpa minus velit cupiditate aperiam a expedita placeat eligendi enim animi hic inventore ducimus tempora ullam dolorem! Nihil, minus laborum. Repellat dolorem quos blanditiis, deleniti error magnam placeat harum provident quisquam! Sit laborum, voluptatum, totam delectus neque tempore voluptatibus aliquam nulla, expedita pariatur possimus? Placeat iusto nam voluptatum ex repellat soluta voluptatibus fugiat culpa ipsam quibusdam numquam, at, non adipisci! Porro placeat, asperiores cupiditate ipsam, sapiente atque mollitia esse beatae et iure veniam maiores! Enim aperiam quo doloremque quam at provident voluptas excepturi quaerat reprehenderit commodi, sit officia, fugiat itaque. Iure maxime omnis, placeat ut unde, reprehenderit assumenda magni sapiente aliquam id dicta eos consequuntur, explicabo labore nesciunt.</p>
+        <p>I am a passionate Website Developer with interests in Web Design, Front-End Development, and Back-End Development. While I still have much to learn, I am always eager to grow and improve.
+
+I am proficient in PHP (particularly using Laravel) and have experience working with JavaScript (using Vue.js, still learning) as well as HTML5. In addition, I am exploring mobile application development using Flutter (still a beginner but highly motivated to learn).
+
+Beyond coding, I have a creative side: I enjoy drawing scenery, and this creative side make me relax
+
+This blend of technical skills and creativity defines who I am and drives my passion for building functional yet visually appealing solutions.</p>
       </div>
       <div class="grid lg:grid-cols-2 gap-3">
         <div class="bg-white shadow-xl  w-auto h-auto rounded-md">
