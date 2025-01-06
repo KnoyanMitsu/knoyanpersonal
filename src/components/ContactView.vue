@@ -6,7 +6,7 @@ import { GitHubIcon } from 'vue3-simple-icons'
 <template>
     <div class="bg-white shadow-xl w-full lg:w-1/2 mt-9 lg:mt-0  rounded-md ">
       <div class="py-4 px-7">
-        <h1 class="text-3xl font-bold mb-5 text-black">Contact Currently, (I'm not open for contact as I'm dedicating time to learning and developing my expertise. Stay tuned for future updates!)</h1>
+        <h1 class="text-3xl font-bold mb-5 text-black">Contact me (Currently,I'm not open for contact as I'm dedicating time to learning and developing my expertise. Stay tuned for future updates!)</h1>
         <!-- <div class="mb-5">
             <p class="text-black font-semibold mb-1">Email</p>
             <p class="text-black font-semibold">8wE9R@example.com</p>
