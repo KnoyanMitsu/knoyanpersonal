@@ -71,7 +71,7 @@ const skeletonCount = Project.length;
           <div class="h-full" v-for="project in Project" :key="project">
             <div class="bg-white shadow-xl rounded-md h-full flex flex-col">
               <img 
-                :src="require(`../assets/${project.image}`)" 
+                :src="new URL(`../assets/${project.image}`, import.meta.url).href"
                 class="rounded-t-md w-full h-52 object-cover" 
                 alt="" 
               />
