@@ -23,7 +23,7 @@ const skeletonCount = Project.length;
 
 <template>
     <div class="">
-        <div v-if="isLoading" class="grid overflow-scroll lg:grid-cols-3 md:grid-cols-2 gap-3">
+        <div v-if="isLoading" class="grid lg:grid-cols-3 md:grid-cols-2 gap-3">
           <div v-for="n in skeletonCount" :key="n" class="h-full">
             <div class="bg-white shadow-xl rounded-md h-full flex flex-col animate-pulse">
               <!-- Skeleton Image -->

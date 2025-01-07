@@ -24,12 +24,12 @@ import ContactView from './ContactView.vue';
       </div>
       <div class="lg:snap-start lg:h-screen lg:py-8">
         <h1 class="text-3xl font-bold flex items-center justify-center mb-9 lg:mb-2 text-black">Projects</h1>
-        <div class=" h-screen overflow-scroll lg:py-24">
+        <div class=" overflow-scroll h-[90%] lg:py-24">
     
             <ProjectView/>
         </div>
       </div>
-    <div class="lg:snap-start lg:h-screen justify-center items-center flex mb-8">
+    <div class="lg:snap-start lg:h-screen  justify-center items-center flex mb-8">
         <ContactView/>
     </div>
     </div>
