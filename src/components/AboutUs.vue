@@ -46,7 +46,7 @@ This blend of technical skills and creativity defines who I am and drives my pas
         <div class="bg-white shadow-xl items-center  rounded-md">
           <h1 class="text-3xl font-bold text-black px-7 py-3">Skill Languages Programing</h1>
           <LangsChart/>
-<p class="font-semibold px-7">Info: This data from my github so this data automatically updated</p>
+<p class="font-semibold px-7 mb-3">Info: This data from my github so this data automatically updated</p>
         </div>
       </div>
     </div>
